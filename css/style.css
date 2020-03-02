@@ -1,10 +1,23 @@
 body {
-  padding-top: 50px;
 }
+
+.row-padding { padding-top:30px; }
+
+
+.navbar, .navbar-default, .navbar-fixed-top {
+  padding: 8px;
+  background-color: #2c3e50
+}
+
 
 .green {
   background: #1abc9c;
   text-align: center;
+}
+
+/* header */
+header {
+  padding: 200px 0 96px;
 }
 
 .avatar {
@@ -12,15 +25,78 @@ body {
   height: auto;
 }
 
-body {
-    background-color: green;
+
+header h1 {
+  font-size: 64px;
+  color: #fff;
+  line-height: 56px;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  font-weight: 300;
 }
 
 
-/* debug */
-[class*="col-"]{
-  /* background: blue; */
-  border: solid 1px #000;
-  height: 180px;
+/* portfolio */
+
+.portfolio h2 {
+  font-size: 48px;
+  line-height: 40px;
+  color: #2c3e50;
+  font-weight: 700;
 }
-/* debug */
+.portfolio img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* about */
+.about {
+  padding: 96px 0;
+}
+
+.about h1 {
+  font-size: 48px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  text-align: left;
+}
+
+
+/* contact */
+
+.contact {
+  padding: 96px 0;
+}
+
+
+/* footer */
+footer {
+  background: #2c3e50;
+  padding: 80px 0;
+}
+
+footer h4 {
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  font-weight: 700;
+}
+
+footer p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 300;
+}
