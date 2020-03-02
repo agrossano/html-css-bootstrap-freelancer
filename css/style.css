@@ -1,0 +1,26 @@
+body {
+  padding-top: 50px;
+}
+
+.green {
+  background: #1abc9c;
+  text-align: center;
+}
+
+.avatar {
+  width: 21%;
+  height: auto;
+}
+
+body {
+    background-color: green;
+}
+
+
+/* debug */
+[class*="col-"]{
+  /* background: blue; */
+  border: solid 1px #000;
+  height: 180px;
+}
+/* debug */
