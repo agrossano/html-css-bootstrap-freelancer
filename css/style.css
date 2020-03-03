@@ -72,22 +72,23 @@ header p {
   font-weight: 300;
 }
 
-.divisore {
+.linea {
   display: inline-block;
   width: 100px;
   border-bottom: 5px solid #fff;
   border-radius: 1rem;
   vertical-align: bottom;
+  margin: 20px 0 24px;
 }
 
-.divisore-ico {
+.divisore {
   margin: 20px 0 24px;
 }
 
 .icon {
   font-size: 32px;
   color: #fff;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .dividietimpera {
@@ -108,7 +109,7 @@ header p {
   font-weight: 700;
 }
 
-.portfolio .divisore {
+.portfolio .linea {
   border-color: #2c3e50;
 }
 
@@ -148,15 +149,15 @@ header p {
 }
 
 .about .btn-style {
-font-size:20px;
-line-height: 30px;
-font-weight: 400;
-color: #f8f9fa;
-border: 2px solid;
-line-height: 1.5;
-border-radius: 7px;
-padding: 16px 28px;
-text-decoration: none;
+  font-size:20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #f8f9fa;
+  border: 2px solid;
+  line-height: 1.5;
+  border-radius: 7px;
+  padding: 16px 28px;
+  text-decoration: none;
 }
 
 
@@ -169,7 +170,6 @@ text-decoration: none;
   padding: 16px 28px;
   border-radius: 10px;
   border: #1abc9c 2px solid;
-
 }
 /* contact */
 
@@ -184,7 +184,7 @@ text-decoration: none;
   font-weight: 700;
 }
 
-.contact .divisore {
+.contact .linea {
   border-color: #2c3e50;
 }
 
